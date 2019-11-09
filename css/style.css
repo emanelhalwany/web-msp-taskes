@@ -1,0 +1,139 @@
+/* body{
+    background-image: url(../img/photo-1510877275-cf9a89103efe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* app style */
+#app{
+
+    margin: 35px auto;
+    padding: 60px;
+    box-shadow: 1px 2px 10px grey;
+    width: 400px;
+    border-radius: 100px;
+    background-color: black;
+    font-family: cursive;
+    color: #ff7600;
+
+}
+
+/* header style */
+
+#app-header{
+
+}
+
+/* banner style */
+
+.banner{
+
+}
+.banner h2 {
+
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+.banner h2:hover {
+    color: #f1e2e2;
+    transition: 1s;
+    font-size: 35px;
+}
+.banner input {
+    margin: 10px 33px;
+    width: 410px;
+    height: 12px;
+    padding: 10px;
+    box-shadow: 0.5px 1px 0px #f1e2e2;
+    border-radius: 20px;
+
+}
+.error{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    box-shadow: 2px 3px 10px #ffbbbb;
+    margin: 30px;
+}
+/* book list style */
+.bookList{
+
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+li{
+    border-left: 5px solid #ff7600;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+.book{
+    display: inline-block;
+    padding: 20px;
+    width: 230px;
+
+}
+.delete{
+    font-size: 22px;
+    padding: 20px;
+
+}
+li:hover {
+    transition: 1s;
+    width: 380px;
+    height: 65px;
+    background-color: beige;
+    
+}
+i:hover {
+    cursor: pointer;
+    font-size: 30px;
+    transition: 1s;
+}
+
+/* add book style */
+#add-book{
+
+}
+#add-book input {
+    margin: 10px 39px;
+    width: 300px;
+    height: 12px;
+    padding: 10px;
+    box-shadow: 0.5px 1px 0px #f1e2e2;
+    font-family: cursive;
+    border-radius: 20px;
+
+}
+
+#add-book input:hover {
+    width: 305px;
+    height: 15px;
+    transition: 1s;
+}
+
+#add-book button{
+    padding: 10px;
+    width: 200px;
+    border: 0px;
+    font-family: cursive;
+    border-radius: 20px;
+    background-color: #ff7600;
+    margin: 10px 100px;
+
+    
+
+}
+#add-book button:hover{
+    background-color: #f1e2e2;
+    cursor: pointer;
+    transition: 1s;
+}
